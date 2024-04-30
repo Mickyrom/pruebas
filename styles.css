@@ -1,0 +1,65 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #e1a32f; /* Naranja */
+    color: #000000; /* Texto blanco */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px; /* Tamaño del logo */
+    height: auto;
+}
+
+.nombre {
+    font-size: 24px;
+}
+
+.enlaces a {
+    margin-left: 20px;
+    color: #000000; /* Texto blanco */
+    text-decoration: none;
+}
+
+/* Estilos para el contenido */
+main {
+    padding: 20px;
+}
+
+/* Estilos para los precios */
+.precio {
+    margin-left: 10px;
+    color: #333; /* Texto negro */
+}
+
+/* Estilos para la información adicional */
+.info-adicional {
+    display: block;
+    font-style: italic;
+    color: #666; /* Texto gris oscuro */
+    font-size: 0.9em;
+}
+
+/* Estilos para las imágenes */
+li img {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-right: 10px; /* Añade un espacio entre la imagen y el texto */
+    border-radius: 5px; /* Añade bordes redondeados a las imágenes */
+}
+
+/* Estilos para la información */
+.info {
+    display: inline-block; /* Coloca la información junto a la imagen */
+    vertical-align: top; /* Alinea la información en la parte superior de la imagen */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333; /* Negro */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    text-align: center;
+}
